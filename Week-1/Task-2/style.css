@@ -1,0 +1,20 @@
+body{
+    background-color: #1d1e27;
+}
+h1{
+    background-color: #2b2d3a;
+    color: rgb(195, 197, 226);
+}
+#link{
+    background-color: #12131a;
+    color: rgb(112, 116, 170);
+}
+p{
+    background-color: #2b2d3a;
+    color: rgb(195, 197, 226);
+    font-size: 2vh;
+}
+#subhead {
+    background-color: #2b2d3a;
+    color: rgb(195, 197, 226);
+}

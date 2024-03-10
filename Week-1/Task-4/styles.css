@@ -1,0 +1,27 @@
+body {
+    background-color: #12151a;
+}
+p, h1 {
+    color: #00ADB5;
+}
+.sem1 {
+    background-color: #fc0b4f;
+    color: white;
+    border: 0.5vh solid #3F72AF;
+    margin: 2vh;
+    padding: 2vh;
+}
+.sem2 {
+    background-color: #B83B5E;
+    color: white;
+    border: 0.5vh solid #3F72AF;
+    margin: 2vh;
+    padding: 2vh;
+}
+.sem3 {
+    background-color: #6A2C70;
+    color: white;
+    border: 0.5vh solid #3F72AF;
+    margin: 2vh;
+    padding: 2vh;
+}

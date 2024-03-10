@@ -1,0 +1,21 @@
+body{
+    background-color: #1a1919;
+}
+caption{
+    color:#ECB159;
+    font-weight: bold;
+    font-size: 3vh;
+}
+th{
+    color:#ECB159;
+}
+td{
+    color: #8CB9BD;
+    border: 3px solid #FBA834;
+}
+h1{
+    color: #B67352;
+}
+li{
+    color: #da6429;
+}

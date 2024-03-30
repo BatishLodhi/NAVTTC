@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form</title>
+  </head>
+  <body>
+    <h1>Personal Form</h1>
+    <form action="success.html">
+      <label for="f_n">Your First name:</label><br>
+      <input type="text" id="f_n" name="f_n" placeholder="First Name" required autocomplete="off"><br>
+      <label for="l_n">Your Last name:</label><br>
+      <input type="text" id="l_n" name="l_n" placeholder="Last Name" required><br><br>
+
+      <label for="hobby">Select your Hobby:</label>
+      <select id="hobby" name="hobby" required>
+        <option value="" disabled selected>Choose a Hobby</option>
+        <option value="Drawing">Drawing</option>
+        <option value="Cooking">Cooking</option>
+        <option value="Coding">Coding</option>
+        <option value="Hiking">Hiking</option>
+        <option value="Cycling">Cycling</option>
+      </select> <br><br>
+
+      <h3>Select the Country you are Currently Living in:</h3>
+      <input id="country1" name="country" type="radio" required>
+      <label for="country1">Pakistan</label> <br>
+      <input id="country2" name="country" type="radio">
+      <label for="country2">India</label> <br>
+      <input id="country3" name="country" type="radio">
+      <label for="country3">China</label> <br>
+      <input id="country4" name="country" type="radio">
+      <label for="country4">Japan</label> <br>
+      <input id="country5" name="country" type="radio">
+      <label for="country5">England</label> <br>
+       <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

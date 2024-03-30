@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Textfields Textareas & Checkboxes</title>
+  </head>
+  <body>
+    <h1>Fill the following form to Subscribe to Our Newsletter</h1><br>
+    <form action="success.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="username" required><br><br>
+        
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Email" required style="margin-left: 3vh;"><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="7" cols="50" placeholder="Write your message here" required style="margin-left: 1vh;"></textarea><br><br>
+    
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">Accept Our Terms & Conditions</label><br>
+        <input type="checkbox" id="priv" name="priv" required>
+        <label for="priv">Accept Our Privacy Policy</label><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
